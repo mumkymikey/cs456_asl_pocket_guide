@@ -6,7 +6,7 @@ function Sidebar() {
       <h1>Hello!</h1>
       <a href="/">Home</a>
       <a href="/pocket-guide">Pocket Guide</a>
-      <a href="/watermelons">Watermelons</a>
+      <a href="/examples">Examples</a>
     </div>
   )
 }

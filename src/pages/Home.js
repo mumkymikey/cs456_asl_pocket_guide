@@ -1,7 +1,8 @@
 function Home() {
   return(
     <div>
-      <h1>Welcome! Click a fruit from the sidebar</h1>
+      <h1>Welcome to the ASL Pocket Guide!</h1>
+      <h2>Navigate the site using the sidebar</h2>
     </div>
   )
 }
