@@ -4,7 +4,7 @@ import Tutorial from './components/Tutorial.js';
 import Home from './pages/Home.js';
 import PocketGuide from './pages/PocketGuide.js';
 import Examples from './pages/Examples.js';
-import { alphabet } from './util/constants.js';
+import { alphabet, numbers } from './util/constants.js';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -21,7 +21,12 @@ function App() {
           <Route exact path='/examples' element={<Examples />}/>
           {
             alphabet.map(letter =>
-              <Route exact path={`/pocket-guide/${letter}`} element={<Tutorial letter={letter} />}/>
+              <Route exact path={`/pocket-guide/${letter}`} element={<Tutorial alphanumeric={letter} />}/>
+            )
+          }
+          {
+            numbers.map(number =>
+              <Route exact path={`/pocket-guide/${number}`} element={<Tutorial alphanumeric={number} />}/>
             )
           }
         </Routes>
