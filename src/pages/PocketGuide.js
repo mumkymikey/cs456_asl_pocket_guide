@@ -15,7 +15,7 @@ function Bananas() {
           <>
             <IconButton color="primary" aria-label={letter} onClick={() => {navigate(`/pocket-guide/${letter}`)}}>
               <svg height="50" width="50">
-                <text x="10" y="40" class="text-icon">{letter}</text>
+                <text x="13" y="38" class="text-icon">{letter}</text>
               </svg>
             </IconButton>
           </>
@@ -27,7 +27,7 @@ function Bananas() {
           <>
             <IconButton color="primary" aria-label={number} onClick={() => {navigate(`/pocket-guide/${number}`)}}>
               <svg height="50" width="50">
-                <text x="10" y="40" class="text-icon">{number}</text>
+                <text x="13" y="38" class="text-icon">{number}</text>
               </svg>
             </IconButton>
           </>
