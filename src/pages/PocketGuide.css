@@ -1,3 +1,7 @@
 .text-icon {
   font: bold 40px monospace;
 }
+
+.center-header {
+  text-align: center
+}

@@ -3,12 +3,12 @@ import IconButton from '@mui/material/IconButton';
 import { alphabet, numbers } from '../util/constants.js';
 import { useNavigate } from 'react-router-dom';
 
-function Bananas() {
+function PocketGuide() {
   let navigate = useNavigate();
 
   return (
     <div>
-      <h1>ASL Pocket Guide</h1>
+      <h1 style={{ textAlign: 'center' }}>Pocket Guide</h1>
       <h2>Letters</h2>
       {
         alphabet.map(letter =>
@@ -37,4 +37,4 @@ function Bananas() {
   )
 }
 
-export default Bananas;
+export default PocketGuide;
