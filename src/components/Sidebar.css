@@ -3,7 +3,6 @@
   width: 160px;
   background-color: #e9c26e;
   position: fixed;
-  z-index: 1;
   top: 0;
   left: 0;
   padding-top: 20px;
@@ -17,7 +16,7 @@
 .sidebar a {
   padding: 6px 8px 6px 16px;
   font-size: 20px;
-  color: #b27a8b;
+  color: #b43030;
   text-decoration: none;
   display: block
 }

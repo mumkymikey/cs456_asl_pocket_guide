@@ -9,6 +9,7 @@ function PocketGuide() {
   return (
     <div>
       <h1 style={{ textAlign: 'center' }}>Pocket Guide</h1>
+      <p style={{ fontSize: '175%' }}>Select a letter/number to view its sign!</p>
       <h2>Letters</h2>
       {
         alphabet.map(letter =>
