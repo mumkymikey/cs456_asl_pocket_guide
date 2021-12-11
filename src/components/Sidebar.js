@@ -7,7 +7,6 @@ function Sidebar() {
       <h1> </h1>
       <a href="/">Home</a>
       <a href="/pocket-guide">Pocket Guide</a>
-      <a href="/examples">Examples</a>
       <a href="/resources">Resources</a>
     </div>
   )

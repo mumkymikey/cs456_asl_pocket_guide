@@ -13,7 +13,7 @@ function Home() {
       <img src={asl_image} alt='ASL' class='center-image' />
       <p>
         The ASL Pocket Guide provides a way for users to quickly find out how to sign each letter,
-        The guide also provides the user with resources to learning ASL, as well as with resources
+        The guide also provides the user with resources to learning ASL, as well as resources
         regarding hearing loss in general.
       </p>
       <p>

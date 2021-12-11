@@ -3,7 +3,7 @@ import Sidebar from './components/Sidebar.js';
 import Tutorial from './components/Tutorial.js';
 import Home from './pages/Home.js';
 import PocketGuide from './pages/PocketGuide.js';
-import Examples from './pages/Examples.js';
+// import Examples from './pages/Examples.js';
 import Resources from './pages/Resources.js';
 import { alphabet, numbers } from './util/constants.js';
 import { Routes, Route } from 'react-router-dom';
@@ -19,7 +19,6 @@ function App() {
         <Routes>
           <Route exact path='/' element={<Home />}/>
           <Route exact path='/pocket-guide' element={<PocketGuide />}/>
-          <Route exact path='/examples' element={<Examples />}/>
           <Route exact path='/resources' element={<Resources />}/>
           {
             alphabet.map(letter =>

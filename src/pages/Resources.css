@@ -1,0 +1,17 @@
+p {
+  font-size: 15px;
+}
+
+a {
+  font-size: 15px;
+  color: #b43030;
+  text-decoration: none
+}
+
+a:hover {
+  color: #62659e
+}
+
+h2 {
+  font-size: 22px;
+}

@@ -16,3 +16,12 @@ export const alphanumeric_video_tutorials = {
   Y: "t689H0-w-Ww", Z: "0BlkX6MWByw", 0: 'm_4rbJcuXLo', 1: '8K4yWpiVJPk', 2: 'fQppTpwisZQ', 3: 'J58DGrShwuY',
   4: 'txpKOXcmwn0', 5: 'U8SpX0zlFpE', 6: 'RsAsBv6I5T8', 7: 'nnnTYk1UlS4', 8: 'u40PBl5xRTQ', 9: 'fB1UgWDghow'
 }
+
+export const resource_links = {
+  asl_for_children: "https://deafchildren.org/knowledge-center/asl-resources/",
+  asl_yt_channel: "https://www.youtube.com/channel/UCjyPt5_3cWbyE38Yq-v4LdQ",
+  association_of_deaf: "https://www.nad.org/resources/american-sign-language/learning-american-sign-language/",
+  hearing_loss_association: "https://www.hearingloss.org/",
+  hearing_loss_in_children: "https://www.cdc.gov/ncbddd/hearingloss/",
+  asha_organizations: "https://www.asha.org/public/hearing/hearing-loss-organizations-and-associations/"
+}
