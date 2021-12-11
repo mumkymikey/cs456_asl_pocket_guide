@@ -15,3 +15,10 @@
   width: 65%;
   position: absolute;
 }
+
+label {
+  font-weight: bold;
+  position: relative;
+  top: 360px;
+  left: 350px
+}

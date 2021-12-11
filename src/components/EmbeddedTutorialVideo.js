@@ -5,6 +5,7 @@ import './EmbeddedTutorialVideo.css';
 const EmbeddedTutorialVideo = ({ embedId }) => (
   <div className="video-responsive">
     <iframe
+      id='embedded_yt'
       width="853"
       height="480"
       src={`https://www.youtube.com/embed/${embedId}`}
@@ -13,6 +14,7 @@ const EmbeddedTutorialVideo = ({ embedId }) => (
       allowFullScreen
       title="Embedded youtube"
     />
+    <label for='embedded_yt'>Source: Baby Sign Language Youtube Channel</label>
   </div>
 );
 
